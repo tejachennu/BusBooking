@@ -1,0 +1,1 @@
+C:\Users\tejac\OneDrive\Desktop\Projects\Bus api\BusBooking\busbooking.client\obj\Debug\busbooking.client.esproj.CoreCompileInputs.cache
