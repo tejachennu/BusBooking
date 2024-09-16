@@ -7,7 +7,7 @@ import HomeContainer from './pages/home_container/HomeContainer';
 import Login from './components/auth/Login';
 import Signup from './components/auth/Signup';
 import './index.css'
-import BusLayout from './components/BusLayOut/BusLayout';
+import OtpVerification from './components/auth/OtpVerification';
 
 function App() {
 
@@ -21,9 +21,8 @@ function App() {
             <Route path='/' element ={<HomeContainer/>} />
             <Route path='/login' element ={<Login/>} />
             <Route path='/Signup' element ={<Signup/>} />
-            <Routes path='/admin' element ={<BusLayout/>} />
+            <Route path='/OtpVerification' element={<OtpVerification/>}/>
            </Routes>
-         
           <Footer/>
         </div>
       </Router>
